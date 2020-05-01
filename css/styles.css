@@ -260,7 +260,7 @@ footer{
 }
 
 
-@media (max-width: 1023px) {
+@media (max-width: 988px) {
   p{
     font-size: 30px;
   }
@@ -357,12 +357,23 @@ footer{
   }
 }
 
-@media (min-height: 768px){
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1023px)  {
   .logo{
-    width: 50%;
+    width: 40%;
+    margin-top: 500px;
   }
 
-  #particles-js{
-    height: 2500px;
+  .logos{
+    width: 300px;
+  }
+
+  .fa-3x{
+    font-size: 2em;
+  }
+
+  .nav-link{
+    font-size: 40px;
   }
 }
