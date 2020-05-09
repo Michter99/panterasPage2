@@ -1,0 +1,389 @@
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background: #021619;
+  z-index: -1;
+  position: absolute;
+}
+
+body{
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1{
+  padding-top: 100px;
+  font-weight: bolder;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 100px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+p{
+  font-size: 22px;
+}
+
+/* Intro Section */
+
+.nav-link{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 25px;
+  transition: 0.3s;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 400;
+}
+
+.nav-link:hover{
+  transform: scale(1.05);
+}
+
+.logos{
+  width: 170px;
+}
+
+.logo{
+  position: fixed;
+  width: 300px;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+/* Info Section */
+
+.text-body{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.entry-title{
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+}
+
+.card-body{
+  padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Objetivos */
+
+.page-title-holder{
+  padding-top: 20px;
+  color: black;
+}
+
+.page-description{
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.middle-container{
+  padding-top: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.foco{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.intro2{
+  margin-left: 100px;
+}
+
+.objetivo{
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.feature-box{
+  padding-left: 45px;
+  padding-right: 45px;
+  line-height: 2;
+}
+
+.feature-title{
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.feature-text{
+  text-align: center;
+  font-size: 18px;
+}
+
+.icon{
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid{
+  padding-bottom: 50px;
+}
+
+/* Patrocinadores */
+
+.marca{
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
+
+.card-group{
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Nuestros equipos */
+
+#nuestrosEquipos{
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.card{
+  border: none;
+  margin: 50px auto;
+  background-color: #ffffff00;
+}
+
+.card-img-top{
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
+.card-img-top:hover{
+  transform: scale(1.05);
+}
+
+.card-text{
+  font-size: 15px;
+}
+
+.row{
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contacto */
+
+.cuerpo{
+  background-image: url(../Images/fondo_detalle.svg);
+}
+
+.first-obj{
+  padding-bottom: 0;
+  padding-top: 150px;
+  margin-left: 50px;
+}
+
+.contact-card{
+  background-color: #ffffff00;
+  text-align: left;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.contact-form textarea{
+  height: 150px;
+  width: 400px;
+}
+
+.info-box{
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+  width: 400px;
+}
+
+.btn{
+  width: 300px;
+}
+
+/* Footer Section */
+
+footer{
+  background-color: #021619;
+  color: white;
+}
+
+.correo{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.social{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px
+}
+
+.social-icon{
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.social-icon:hover{
+  color: #A32F2F;
+}
+
+
+@media (max-width: 988px) {
+  p{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 36px;
+  }
+
+  h4{
+    font-size: 36px;
+  }
+
+  .enlace{
+    font-size: 30px;
+  }
+
+  .cuerpo{
+    height: 100%;
+  }
+
+  .entry-title{
+    font-size: 60px;
+    padding-top: 45px;
+  }
+
+  .nav-link {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+  }
+
+  .title-image{
+    width: auto;
+  }
+
+  .logo{
+    width:70%;
+    margin-top: 700px;
+  }
+
+  .logos{
+    width: 350px;
+  }
+
+  .feature-title{
+    font-size: 36px;
+  }
+
+  .feature-text{
+    font-size: 30px;
+  }
+
+  .fa-4x{
+    font-size: 5em;
+  }
+
+  .fa-2x{
+    font-size: 3em;
+  }
+
+  .card-text{
+    font-size: 28px;
+  }
+
+  .card-img-top{
+    width: 400px;
+  }
+
+  .intro2{
+    padding-left: 20px;
+  }
+
+  .correo{
+    font-size: 26px;
+  }
+
+  .info-box{
+    width: 600px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  .contact-form textarea{
+    height: 200px;
+    width: 600px;
+  }
+
+  .btn{
+    margin-bottom: 200px;
+  }
+
+  .social{
+    padding-bottom: 32px;
+  }
+
+  .social-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1023px)  {
+  .logo{
+    width: 40%;
+    margin-top: 500px;
+  }
+
+  .logos{
+    width: 300px;
+  }
+
+  .social-icon{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .fa-3x{
+    font-size: 2em;
+  }
+
+  .nav-link{
+    font-size: 40px;
+  }
+}
